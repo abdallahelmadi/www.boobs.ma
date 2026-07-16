@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-white text-black text-[14px];
+}
+
+*::selection {
+  @apply bg-black text-white;
+}
+
+::-webkit-scrollbar {
+  @apply w-2.5 h-2.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-white;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-black rounded-[10px];
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#333];
+}
