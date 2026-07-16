@@ -2,6 +2,12 @@
 
 body {
   @apply bg-white text-black text-[14px];
+  cursor: url("https://cdn.cursors-4u.net/previews/ok-saitama-one-punch-man-3a24880a-32.webp") 36 36, auto !important;
+}
+
+a,
+button {
+  cursor: url('https://cdn.cursors-4u.net/previews/banana-66b4c540-32.webp') 32 32, pointer !important;
 }
 
 *::selection {

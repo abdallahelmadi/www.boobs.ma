@@ -1,13 +1,16 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Canva } from "@/components/canva"
 
 export default function Home(): React.ReactNode {
   return (
-    <main className="flex flex-col py-12">
+    <main className="flex flex-col pt-12">
+
+      <Canva />
 
       <Link
         href="/"
-        className="px-6 md:px-12"
+        className="px-6 md:px-12 max-w-max"
       >
         <Image
           src="/boobs.svg"
@@ -39,7 +42,7 @@ export default function Home(): React.ReactNode {
       </button>
 
       <h2 className="max-w-175 tracking-tighter leading-none mt-16 text-[#4D4D4D] px-6 md:px-12">
-        <b className="text-black text-[19px]"> Founder's Aspiration: </b> "I want to make the world a better place,
+        <b className="text-black text-[19px]"> Founder&apos;s Aspiration: </b> "I want to make the world a better place,
         one line of code at a time."
       </h2>
 
@@ -77,11 +80,13 @@ export default function Home(): React.ReactNode {
 
       </div>
 
-      <div className="px-6 md:px-12">
+      <footer className="px-6 md:px-12 border-t border-gray-200 flex justify-between items-center py-4">
 
-        {/* contact */}
+        <span className="text-[11px] text-gray-500">
+          © 2026 boob.ma. all rights can be reserved.
+        </span>
 
-      </div>
+      </footer>
 
     </main>
   )
