@@ -26,7 +26,7 @@ export function Canva(): React.ReactNode {
     const mouse = {
       x: 0,
       y: 0,
-      active: false,
+      active: false
     }
 
     const waves: Wave[] = Array.from({ length: 12 }, () => ({
@@ -34,7 +34,7 @@ export function Canva(): React.ReactNode {
       speed: 0.0003 + Math.random() * 0.0008,
       amplitude: 40 + Math.random() * 80,
       thickness: 100 + Math.random() * 160,
-      opacity: 0.015 + Math.random() * 0.03,
+      opacity: 0.015 + Math.random() * 0.03
     }))
 
     const resize = () => {
