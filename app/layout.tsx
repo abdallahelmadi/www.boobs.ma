@@ -8,6 +8,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.boobs.ma'),
   title: "Boobs",
   description: "An all-in-one platform to create, manage, and grow your apps and digital businesses.",
   keywords: [
